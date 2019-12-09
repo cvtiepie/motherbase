@@ -1,12 +1,11 @@
-/*hello, ivan,,,,,,,,,,,,,,,,,*/
+/*hello, ivan*/
+
 
 /*1.1. Объявляем переменные и константы и выводим их в консоли*/
 
 'use strict';
-
 let faget = 'ivan';
-
-const DROBYSH = 'gorshok';
+const drobysh = 'gorshok';
 console.log(DROBYSH, 'and', faget, 'are having fun');
 
 /*1.2. Типы данных и их преобразование.
@@ -36,3 +35,4 @@ let compar3 = 'Билли Корган' == null; // Билли Корган вс
 
 
 console.log(compar1, compar2, compar3);
+
