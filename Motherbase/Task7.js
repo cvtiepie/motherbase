@@ -45,12 +45,12 @@ function pow(x, n) {
     else return x ** n
 }
 
-console.log(pow(2, -1))
+console.log(pow(2, -1));
 
 //стрелочные функции. вот этот код переписываем с использований функций-стрелок
 
 function ask(question, yes, no) {
-    if (confirm(question)) yes()
+    if (confirm(question)) yes();
     else no();
 }
 
@@ -62,12 +62,12 @@ ask(
 
 //переписываем:
 
-function ask (question, yes, no) {
+function askRewritten (question, yes, no) {
     if (confirm(quiestion)) yes();
     else no()
 };
 
-ask ('Узнали? Согласны?'),
+askRewritten ('Узнали? Согласны?'),
     () => { alert("Вы узнали и согласны"); },
     () => { alert("Вы не узнали и не согласны"); }
 );
