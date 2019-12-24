@@ -2,6 +2,7 @@
 
 let testArray = ['один', 'два', 'три', 'четыре', 'пять'];
 
+
 for (let elementArray of testArray) {
     console.log(elementArray);
 }
